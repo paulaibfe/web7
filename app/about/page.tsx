@@ -70,7 +70,6 @@ export default function AboutPage() {
       items: [
         "Modelado y renderizado de espacios y objetos.",
         "Herramientas: SketchUp, 3ds Max, Twinmotion.",
-        "Enfoque: visualización realista de atmósferas, materiales y volumetrías.",
       ],
     },
     {
@@ -126,7 +125,7 @@ export default function AboutPage() {
                   <img
                     src="/about-me/images/1.png"
                     alt="Paula Ibor - Perfil"
-                    className="w-full h-full object-cover rounded-md border border-primary/30 shadow-lg"
+                    className="w-full h-full object-contain rounded-md border border-primary/30 shadow-lg"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-md"></div>
                 </div>
