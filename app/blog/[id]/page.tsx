@@ -17,39 +17,27 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
 
   // This would typically come from an API or database
   const posts = {
-    "future-of-ai": {
-      title: "El futuro de la IA en el arte",
-      date: "2023-05-15",
+    "Mi-viaje-hasta-NeoNoia": {
+      title: "Mi viaje hasta NeoNoia",
+      date: "",
       readingTime: "5 min de lectura",
       content: `
-        <p>La Inteligencia Artificial ha recorrido un largo camino desde sus inicios. Desde sistemas basados en reglas hasta algoritmos de aprendizaje automático que pueden aprender de los datos, el campo ha experimentado un enorme crecimiento e innovación.</p>
+        <p>Hace casi un año empecé a soñar con una web que reflejara mi mirada creativa: un espacio donde la “paranoia” interior se convirtiera en belleza.El nombre nació casi de un casualidad: Neo como renovación y Noia —que en catalán significa “niña”— como ese toque dulce que se esconde tras algo tan rudo como escribir código. Me imaginé un sitio oscuro y luminoso a la vez, un refugio para mi lado rebelde y coquette.</p>
         
-        <p>Hoy, nos encontramos al borde de una nueva era en el desarrollo de la IA. Modelos de lenguaje grandes como GPT-4 han demostrado capacidades que antes se consideraban exclusivamente humanas, como la escritura creativa, la resolución de problemas e incluso la programación.</p>
+        <p>Los primeros meses fueron un torbellino. Sin experiencia en desarrollo web, probé plantillas y tutoriales: HTML, CSS, JavaScript… cada paso venía acompañado de un error nuevo. Se caía el layout, no cargaban las imágenes, conflictos de rutas… Pocas veces sentí tanta frustración y ganas de rendirme. Y muchas veces lo hice. Pero luego algo me hacía volver a empezar. Cada fallo, además de frustrarme, se convirtió en un pequeño aprendizaje (aunque de esto me haya dado cuenta ahora): descubrí la importancia de la estructura de carpetas, de las buenas prácticas en Git, de pedir ayuda en foros y que y como pedirle a ChatGPT las cosas.</p>
         
-        <h2>Consideraciones éticas</h2>
+        <p>Anteayer: me armé de paciencia y borré todas las líneas de código. Y comencé de cero, recuperé solo los componentes básicos que sabía que funcionaban y reinicié el proyecto desde ahí, sin volver a caer en los mismos errores. Esta vez mi prioridad era que la web fuera simplemente funcional, no perfecta, liberándome de los dolores de cabeza que provocaba la ansia de pulir cada detalle. Justo unos días antes, mi profesora Lorraine me había recordado por correo:</p>
         
-        <p>A medida que los sistemas de IA se vuelven más poderosos y se integran en nuestra vida cotidiana, las consideraciones éticas se vuelven cada vez más importantes. Es necesario abordar cuestiones sobre el sesgo, la equidad, la transparencia y la responsabilidad.</p>
+        <h3>"Es importante que no pierdas el foco: ser demasiado perfeccionista o extenderte más de lo necesario puede jugar en tu contra."</h3>
         
-        <p>Los desarrolladores tienen la responsabilidad de garantizar que los sistemas de IA se diseñen teniendo en cuenta principios éticos. Esto incluye ser consciente de los posibles sesgos en los datos de entrenamiento, garantizar la transparencia en la forma en que los sistemas de IA toman decisiones y establecer mecanismos de responsabilidad cuando las cosas salen mal.</p>
-        
-        <h2>Avances tecnológicos</h2>
-        
-        <p>En el frente tecnológico, estamos viendo avances en varias áreas:</p>
-        
-        <ul>
-          <li>Sistemas de IA multimodales que pueden procesar y generar diferentes tipos de datos (texto, imágenes, audio)</li>
-          <li>Aprendizaje por refuerzo a partir de la retroalimentación humana (RLHF) para alinear los sistemas de IA con los valores humanos</li>
-          <li>Aprendizaje federado para entrenar modelos en múltiples dispositivos preservando la privacidad</li>
-          <li>Computación neuromórfica para crear hardware de IA más eficiente</li>
-        </ul>
-        
-        <h2>El camino por delante</h2>
+        <p>En dos días ya tengo un prototipo limpio, rápido y con la esencia que buscaba.</p>
         
         <p>El futuro del desarrollo de la IA es a la vez emocionante y desafiante. A medida que continuamos ampliando los límites de lo que es posible, también debemos ser conscientes de los riesgos potenciales y asegurarnos de que los sistemas de IA se desarrollen y desplieguen de manera responsable.</p>
         
-        <p>Fomentando la colaboración entre investigadores, desarrolladores, legisladores y el público, podemos trabajar hacia un futuro en el que la IA beneficie a la humanidad mientras minimiza los posibles daños.</p>
+        <p>Este post es mi primera entrada de inspiración: un recordatorio de que los errores no son fracasos, sino huellas de aprendizaje. Que aunque suene Mr. Wonderfull, es la verdad. Ahora te invito a acompañarme en este blog y mis redes sociales. Un besitoo <33 NeoNoia. </p>
       `,
     },
+    /*
     "web3-revolution": {
       title: "La revolución Web3",
       date: "2023-04-22",
@@ -144,7 +132,7 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
         
         <pre><code>
 const MyComponent = React.memo(function MyComponent(props) {
-  /* renderizar usando props */
+  /* renderizar usando props 
 });
         </code></pre>
         
@@ -201,7 +189,7 @@ function MyComponent() {
         
         <p>Aplicando estas técnicas, puedes mejorar significativamente el rendimiento de tus aplicaciones React, proporcionando una mejor experiencia de usuario y reduciendo el uso de recursos.</p>
       `,
-    },
+    },*/
   }
 
   const post = posts[id as keyof typeof posts]
@@ -231,7 +219,7 @@ function MyComponent() {
         </div>
 
         <div
-          className="prose prose-invert max-w-none prose-headings:text-primary prose-a:text-primary"
+          className="prose prose-invert max-w-none prose-headings:text-white prose-a:text-primary prose-p:text-muted-foreground prose-li:text-muted-foreground"
           dangerouslySetInnerHTML={{ __html: post.content }}
         />
       </article>

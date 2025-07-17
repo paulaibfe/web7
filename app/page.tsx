@@ -40,11 +40,11 @@ export default function Home() {
 
   const latestPosts = [
     {
-      id: "future-of-ai",
-      title: "El futuro de la IA en el arte",
+      id: "Mi-viaje-hasta-NeoNoia",
+      title: "Mi viaje hasta NeoNoia",
       excerpt:
-        "Explorando las implicaciones éticas y avances tecnológicos en la inteligencia artificial aplicada al arte.",
-      date: "2023-05-15",
+        "De la idea al lanzamiento",
+      date: "",
       readingTime: "5 min de lectura",
     },
   ]

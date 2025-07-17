@@ -3,12 +3,13 @@ import { BlogCard } from "@/components/blog-card"
 export default function BlogPage() {
   const posts = [
     {
-      id: "future-of-ai",
-      title: "El futuro de la IA en el arte",
+      id: "Mi-viaje-hasta-NeoNoia",
+      title: "Mi viaje hasta NeoNoia",
       excerpt:
-        "Explorando las implicaciones éticas y avances tecnológicos en la inteligencia artificial aplicada al arte.",
+        "De la idea al lanzamiento",
       readingTime: "5 min de lectura",
     },
+    /*
     {
       id: "web3-revolution",
       title: "La revolución Web3",
@@ -29,6 +30,7 @@ export default function BlogPage() {
       excerpt: "Técnicas avanzadas para mejorar el rendimiento de tus aplicaciones React.",
       readingTime: "8 min de lectura",
     },
+    */
   ]
 
   return (
