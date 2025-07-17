@@ -398,7 +398,7 @@ export default function ProjectPage() {
         },
       ],
       longDescription:
-        "Un evento que une esports y cultura de festival para abrir el gaming a más gente. BACK2PLAY es un evento de tres días que combina competiciones de videojuegos con una programación cultural pensada para ampliar el alcance de los esports. Nuestro objetivo es reunir en un mismo espacio a jugadores habituales, fans casuales y personas que nunca se han sentido representadas en este tipo de eventos, pero que crecieron jugando. Sí, hay torneos con nivel, reglas y premios. Pero también hay conciertos, talleres, zona retro, actividades interactivas y experiencias que invitan a participar desde otros lugares: el recuerdo, la música, la comunidad o simplemente la curiosidad. No se trata de restar importancia a la competición, sino de sumar capas de contenido que conecten con una generación que no vive el gaming solo como deporte, sino como cultura. Durante tres días, el Sant Jordi Club se transforma en un entorno híbrido: una LAN party con espíritu de festival, donde se puede competir, aprender, jugar, mirar o simplemente disfrutar. BACK2PLAY no es una feria ni un campeonato al uso. Es una propuesta nueva para una comunidad más amplia, más diversa y más conectada con el presente.",
+        "Un evento que une esports y cultura de festival para abrir el gaming a más gente. \nBACK2PLAY es un evento de tres días que combina competiciones de videojuegos con una programación cultural pensada para ampliar el alcance de los esports. Nuestro objetivo es reunir en un mismo espacio a jugadores habituales, fans casuales y personas que nunca se han sentido representadas en este tipo de eventos, pero que crecieron jugando. \n\nSí, hay torneos con nivel, reglas y premios. Pero también hay conciertos, talleres, zona retro, actividades interactivas y experiencias que invitan a participar desde otros lugares: el recuerdo, la música, la comunidad o simplemente la curiosidad. No se trata de restar importancia a la competición, sino de sumar capas de contenido que conecten con una generación que no vive el gaming solo como deporte, sino como cultura.\n\n Durante tres días, el Sant Jordi Club se transforma en un entorno híbrido: una LAN party con espíritu de festival, donde se puede competir, aprender, jugar, mirar o simplemente disfrutar. BACK2PLAY no es una feria ni un campeonato al uso. Es una propuesta nueva para una comunidad más amplia, más diversa y más conectada con el presente.",
     },
     "serenates": {
       title: "Serenates 2024",
@@ -415,22 +415,22 @@ export default function ProjectPage() {
         {
           type: "video" as const,
           src: "/serenates/videos/1.mp4",
-          caption: "Prueba digital secuencia completa de luces sincronizada con poemas",
+          caption: "Introducción",
         },
         {
           type: "video" as const,
           src: "/serenates/videos/2.mp4",
-          caption: "Prueba digital secuencia completa de luces sincronizada con poemas",
+          caption: "Los Nazarenos",
         },
         {
           type: "video" as const,
           src: "/serenates/videos/3.mp4",
-          caption: "Prueba digital secuencia completa de luces sincronizada con poemas",
+          caption: "Los Nazarenos",
         },
         {
           type: "video" as const,
           src: "/serenates/videos/4.mp4",
-          caption: "Prueba digital secuencia completa de luces sincronizada con poemas",
+          caption: "Los Toreros",
         },
       ],
       links: [
@@ -449,6 +449,38 @@ export default function ProjectPage() {
       ],
       longDescription:
         'Diseñamos una secuencia de luces inspirada en los poemas del poeta valenciano Vicent Andrés Estellés, que se proyectaban sobre las figuras de la Falla, utilizando PAR LEDs conectados con DMX y protocolo Artnet, en sincronía con los poemas del poeta. Con la ayuda de TouchDesigner, logramos crear un sistema autosuficiente que encendía y apagaba automáticamente la instalación, garantizando su funcionamiento sin problemas durante todo el evento.\n\nY no nos detuvimos ahí. También llevamos la experiencia a la realidad aumentada, agregando imágenes que representaban la historia de la Falla, la Plaza de la Reina y Valencia en la época de Estellés.\n\nY para nuestra alegría, la Falla Tio Pep, diseñada por Virginia Lorente y creada por el artista Ricardo Alcaide, recibió el tercer premio de Fallas experimentales. Fue un verdadero honor haber sido parte de este proyecto y trabajar junto a verdaderos profesionales.\n\nVirginia Lorente: "Las Fallas son una oportunidad increíble para incorporar todos los ámbitos del diseño."\n\nA través de las luces y el sonido, las personas que visiten el monumento podrán escuchar los versos, "y sentir el latido de ese abrazo".',
+    },
+    "juego": {
+      title: "Juego",
+      description: "Juego físico,digital que combinan electrónica DIY con visuales generados en tiempo real.",
+      technologies: ["Gamificación", "Arduino", "TouchDesigner"],
+      category: "interactivo",
+      media: [
+        {
+          type: "image" as const,
+          src: "/juego/images/1.png",
+          alt: "Imagen del juego",
+          caption: "Imagen del juego",
+        },
+        {
+          type: "video" as const,
+          src: "/juego/videos/1.mp4",
+          caption: "Juego digital",
+        },
+        {
+          type: "video" as const,
+          src: "/juego/videos/2.mp4",
+          caption: "Juego físico",
+        },
+        {
+          type: "video" as const,
+          src: "/juego/videos/3.mp4",
+          caption: "Juego físico",
+        },
+      ],
+
+      longDescription:
+        'En este trabajo desarrollé un juego físico/digital que pone al usuario en el centro de una experiencia lúdica y sensorial, combinando electrónica DIY (Arduino) con visuales generados en tiempo real (TouchDesigner). \n\n El desafío era crear una dinámica de juego sencilla pero inmersiva, donde la interacción manual con hardware (botones, potenciómetros o sensores de proximidad) se traduzca en una respuesta audiovisual directa y atractiva. \n\n El resultado fue una experiencia lúdica de 2/3 min por participante, que combinaba la satisfacción táctil del hardware con la sorpresa audiovisual en tiempo real.',
     },
     "deep-end-skatepark": {
       title: "Deep End Skatepark",
@@ -481,67 +513,159 @@ export default function ProjectPage() {
           caption: "Zona rocodromo",
         },
       ],
+      links: [
+        {
+          text: "Proyecto completo",
+          url: "https://drive.google.com/drive/folders/1cvVtWuP-GHSUtzv_d6JJwQOz1vn74q3T?usp=drive_link",
+        },
+      ],
       longDescription:
         "Deep End Skatepark es un proyecto de diseño interior que transforma un antiguo espacio industrial en un centro dinámico para la cultura del skateboarding. El diseño respeta y realza las características arquitectónicas originales del edificio, incorporando elementos de diseño inspirados en la estética urbana y la cultura skate. Más allá de las rampas y obstáculos técnicamente optimizados, el espacio integra áreas sociales, expositivas y educativas, creando un hub cultural completo. La iluminación, acústica y materiales han sido cuidadosamente seleccionados para crear un ambiente que es tanto funcional para la práctica deportiva como visualmente impactante.",
     },
     formentera: {
       title: "Formentera",
       description:
-        "Diseño de interiores para una residencia en Formentera que integra la esencia mediterránea con un enfoque contemporáneo.",
-      technologies: ["Residencial", "Mediterráneo", "Sostenibilidad"],
+        "Rehabilitación de una vivienda de dos plantas entre medianeras.",
+      technologies: ["Arquitectura", "Planimetria", "Visualización 3D"],
       category: "interiores",
       media: [
         {
           type: "image" as const,
-          src: "/projects/formentera/residencia-mediterranea.jpg",
-          alt: "Residencia mediterránea",
-          caption: "Vista exterior de la residencia en Formentera",
+          src: "/formentera/images/1.png",
+          alt: "Salón / cocina",
+          caption: "Salón / cocina",
         },
         {
           type: "image" as const,
-          src: "/projects/formentera/interior-salon.jpg",
-          alt: "Interior del salón",
-          caption: "Salón principal con vistas al mar",
+          src: "/formentera/images/2.png",
+          alt: "Terraza",
+          caption: "Terraza",
         },
         {
           type: "image" as const,
-          src: "/projects/formentera/terraza-exterior.jpg",
-          alt: "Terraza exterior",
-          caption: "Terraza con mobiliario mediterráneo",
+          src: "/formentera/images/3.png",
+          alt: "Baño planta baja",
+          caption: "Baño planta baja",
+        },
+        {
+          type: "image" as const,
+          src: "/formentera/images/5.png",
+          alt: "Baño primera planta",
+          caption: "Baño primera planta",
+        },
+        {
+          type: "image" as const,
+          src: "/formentera/images/6.png",
+          alt: "Distribución antes de la reforma",
+          caption: "Distribución antes de la reforma",
+        },
+        {
+          type: "image" as const,
+          src: "/formentera/images/7.png",
+          alt: "Distribución tras la reforma",
+          caption: "Distribución tras la reforma",
         },
       ],
-      // Proyecto solo con imágenes, sin videos
+      
       longDescription:
-        "Formentera es un proyecto de diseño interior residencial que captura la esencia de la isla balear homónima. El diseño se inspira en la simplicidad de la arquitectura tradicional mediterránea, utilizando una paleta de colores que refleja el paisaje natural de la isla: blancos cálidos, azules profundos y tonos terrosos. Los materiales naturales y locales como la madera recuperada, la piedra caliza y los textiles artesanales dominan el espacio, creando una sensación de autenticidad y conexión con el entorno. La distribución espacial maximiza la luz natural y las vistas al exterior, difuminando los límites entre el interior y el paisaje circundante.",
+        "Este proyecto consiste en la transformación de una vivienda adosada de dos plantas en pleno centro de Valencia, optimizando su distribución original (garaje, cocina, salón, tres dormitorios y dos baños) para adaptarla a un estilo de vida contemporáneo y sensorial. Se buscó maximizar la luz natural, generar espacios abiertos y emplear materiales claros y texturas suaves para transmitir frescura y comodidad.",
     },
     "bailar-en-el-desierto": {
       title: "Bailar en el desierto",
       description:
-        "Experiencia de realidad virtual que transporta a los usuarios a un desierto donde el movimiento se traduce en expresiones visuales y sonoras.",
-      technologies: ["VR", "Danza", "Arte Digital"],
+        "Bailar en el Desierto es una experiencia inmersiva de realidad virtual que traslada al usuario a un festival de música electrónica en medio de un páramo infinito",
+      technologies: ["VR", "Experiencia Inmersiva", "Arte Digital"],
       category: "ia-ra-vr",
       media: [
         {
+          type: "image" as const,
+          src: "/bailar-en-el-desierto/images/1.png",
+          alt: "Escena general atardecer",
+          caption: "Escena general atardecer",
+        },
+        {
           type: "video" as const,
-          src: "/projects/bailar-en-el-desierto/experiencia-vr.mp4",
-          caption: "Demostración de la experiencia de realidad virtual",
+          src: "/bailar-en-el-desierto/videos/1.mp4",
+          caption: "Video completo",
         },
         {
           type: "image" as const,
-          src: "/projects/bailar-en-el-desierto/paisaje-desierto.jpg",
-          alt: "Paisaje del desierto virtual",
-          caption: "Paisaje del desierto virtual generado",
+          src: "/bailar-en-el-desierto/images/4.png",
+          alt: "Escenario 1",
+          caption: "Escenario 1",
+        },
+        {
+          type: "image" as const,
+          src: "/bailar-en-el-desierto/images/3.png",
+          alt: "Escenario 2",
+          caption: "Escenario 2",
+        },
+        {
+          type: "image" as const,
+          src: "/bailar-en-el-desierto/images/2.png",
+          alt: "Escenario 3",
+          caption: "Escenario 3",
+        },
+        {
+          type: "image" as const,
+          src: "/bailar-en-el-desierto/images/5.png",
+          alt: "Imagen aérea",
+          caption: "Escenario aérea",
+        },
+      ],
+      longDescription:
+        "Bailar en el Desierto es una experiencia inmersiva de realidad virtual que traslada al usuario a un festival de música electrónica en medio de un páramo infinito. Todos los escenarios están construidos con materiales y objetos reciclados, y persiguen el objetivo de ofrecer la emoción de un gran evento sin los costes elevados de producción ni la huella ambiental de los festivales tradicionales. \n\n Bailar en el Desierto demuestra cómo la creatividad y la tecnología pueden unirse para ofrecer un festival electrónico sostenible, accesible y memorable, totalmente reinventado para el metaverso.",
+    },
+    "dialogos": {
+      title: "Diálogos 2024",
+      description:
+        "Con <<La Inteligencia de Nuestros Cuerpo>>, el Máster de Diseño Interactivo exploró cómo lo físico, lo virtual y lo algorítmico pueden integrarse para ofrecer experiencias colaborativas.",
+      technologies: ["IA", "Producción", "Arte Generativo"],
+      category: "ia-ra-vr",
+      media: [
+        {
+          type: "image" as const,
+          src: "/dialogos/images/1.png",
+          alt: "Últimas pruebas",
+          caption: "Últimas pruebas",
+        },
+        {
+          type: "video" as const,
+          src: "/dialogos/videos/1.png",
+          caption: "Mesa reactiva",
+        },
+        {
+          type: "image" as const,
+          src: "/dialogos/images/2.png",
+          alt: "Proceso de construcción y pruebas",
+          caption: "Proceso de construcción y pruebas",
+        },
+        {
+          type: "image" as const,
+          src: "/dialogos/images/4.png",
+          alt: "Cartel funcionamiento mesa reactiva",
+          caption: "Cartel funcionamiento mesa reactiva",
+        },
+        {
+          type: "image" as const,
+          src: "/dialogos/images/3.png",
+          alt: "Accesorios Realidad Aumentada",
+          caption: "Accesorios Realidad Aumentada",
+        },
+        {
+          type: "video" as const,
+          src: "/dialogos/videos/2.mp4",
+          caption: "Fibra de vidrio",
         },
       ],
       links: [
         {
-          text: "Tecnología de captura de movimiento",
-          url: "https://www.mocap-systems.com/",
+          text: "Video Resumen",
+          url: "https://www.youtube.com/watch?v=VxZrawqOUE8",
         },
       ],
-      // Proyecto con menos medios - solo 1 video y 1 imagen
       longDescription:
-        "Bailar en el desierto es una experiencia de realidad virtual que invita a los participantes a explorar la expresión corporal en un paisaje desértico virtual. Utilizando tecnología de captura de movimiento, la experiencia traduce los gestos y movimientos del usuario en elementos visuales y sonoros que transforman el entorno virtual. El desierto, inicialmente minimalista y estático, cobra vida con cada movimiento, generando dunas ondulantes, tormentas de arena rítmicas y fenómenos atmosféricos que responden a la intensidad y fluidez de la danza. La experiencia explora la relación entre el cuerpo, el espacio y la transformación digital del movimiento.",
+        "Durante Diálogos 2024 en la EASD de Valencia, mis compañeros Julud, Humber, Amina, Maria, Sandra y yo presentamos “La Inteligencia de Nuestros Cuerpos”, un conjunto de instalaciones que fusionan interacción física, visuales en tiempo real y realidad aumentada. La pieza central fue una mesa interactiva basada en ReacTIVsion: los asistentes escaneaban un código QR, elegían un diseñador en la web y veían cargar su ficha –foto, biografía y enlaces– directamente sobre la superficie retroiluminada. \n\n En paralelo, desplegamos una estructura de fibra óptica controlada por DMX, cuyos haces de luz respondían en directo al ritmo musical gracias a un teclado MIDI y TouchDesigner. Y en el proyecto GALER(IA) de Iván Pastor, los visitantes alimentaban un motor de IA con sus gestos para generar y proyectar imágenes inéditas, evidenciando la importancia del factor humano en la creación algorítmica. \n\n Para completar la experiencia, ofrecimos un probador virtual AR que permitía “probarse” accesorios de diseñadores mediante ARKit/ARCore",
     },
   }
 

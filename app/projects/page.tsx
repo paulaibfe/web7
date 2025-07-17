@@ -96,14 +96,14 @@ export default function ProjectsPage() {
       technologies: ["Arquitectura", "Planimetria", "Visualización 3D"],
       category: "interiores",
     },
-    {
+    /*{
       id: "dona-carmen",
       title: "Doña Carmen",
       description: "Rediseño de un espacio gastronómico que combina tradición culinaria y diseño de vanguardia.",
       image: "/dona-carmen/espacio-gastronomico.jpg",
       technologies: ["Hostelería", "Iluminación", "Experiencia"],
       category: "interiores",
-    },
+    },*/
 
     // IA/RA/VR
     {
@@ -128,7 +128,7 @@ export default function ProjectsPage() {
       id: "dialogos",
       title: "Diálogos 2024",
       description:
-        "Con “La Inteligencia de Nuestros Cuerpos”, el Máster de Diseño Interactivo exploró cómo lo físico, lo virtual y lo algorítmico pueden integrarse para ofrecer experiencias colaborativas.",
+        "Con <<La Inteligencia de Nuestros Cuerpo>>, el Máster de Diseño Interactivo exploró cómo lo físico, lo virtual y lo algorítmico pueden integrarse para ofrecer experiencias colaborativas.",
       image: "/dialogos/images/1.png",
       technologies: ["IA", "Producción", "Arte Generativo"],
       category: "ia-ra-vr",
