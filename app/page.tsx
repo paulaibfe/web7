@@ -33,7 +33,7 @@ export default function Home() {
       id: "formentera",
       title: "Formentera",
       description: "Rehabilitación de una vivienda de dos plantas entre medianeras.",
-      image: "/formentera/1.png",
+      image: "/formentera/images/1.png",
       technologies: ["Arquitectura", "Planimetria", "Visualización 3D"],
     },
   ]
@@ -50,11 +50,11 @@ export default function Home() {
   ]
 
   const skills = [
-    t("EstratégiaExperiencial"),
-    t("PrototipadoÁgil"),
-    t("SistemasModulares"),
-    t("SostenibilidadCircular"),
-    t("CoordinaciónInterdisciplinar"),
+    t("Estratégia Experiencial"),
+    t("Prototipado Ágil"),
+    t("Sistemas Modulares"),
+    t("Sostenibilidad Circular"),
+    t("Coordinación Interdisciplinar"),
     //t("artificialIntelligence"),
     //t("soundDesign"),
     //t("lighting"),
