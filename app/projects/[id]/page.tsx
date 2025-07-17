@@ -336,6 +336,120 @@ export default function ProjectPage() {
       longDescription:
         'Diseñamos una secuencia de luces inspirada en los poemas del poeta valenciano Vicent Andrés Estellés, que se proyectaban sobre las figuras de la Falla, utilizando PAR LEDs conectados con DMX y protocolo Artnet, en sincronía con los poemas del poeta. Con la ayuda de TouchDesigner, logramos crear un sistema autosuficiente que encendía y apagaba automáticamente la instalación, garantizando su funcionamiento sin problemas durante todo el evento.\n\nY no nos detuvimos ahí. También llevamos la experiencia a la realidad aumentada, agregando imágenes que representaban la historia de la Falla, la Plaza de la Reina y Valencia en la época de Estellés.\n\nY para nuestra alegría, la Falla Tio Pep, diseñada por Virginia Lorente y creada por el artista Ricardo Alcaide, recibió el tercer premio de Fallas experimentales. Fue un verdadero honor haber sido parte de este proyecto y trabajar junto a verdaderos profesionales.\n\nVirginia Lorente: "Las Fallas son una oportunidad increíble para incorporar todos los ámbitos del diseño."\n\nA través de las luces y el sonido, las personas que visiten el monumento podrán escuchar los versos, "y sentir el latido de ese abrazo".',
     },
+    "back2play": {
+      title: "Back2play",
+      description: "Un evento de eSports para los gamers no gamers",
+      technologies: ["Dirección Arte", "Marketing", "Producción"],
+      category: "eventos",
+      media: [
+        {
+          type: "image" as const,
+          src: "/back2play/images/1.png",
+          alt: "Portada",
+          caption: "Portada",
+        },
+        {
+          type: "image" as const,
+          src: "/back2play/images/2.png",
+          alt: "¿te consideras gamer?",
+          caption: "¿te consideras gamer?",
+        },
+        {
+          type: "image" as const,
+          src: "/back2play/images/3.png",
+          alt: "¿seguro?",
+          caption: "¿seguro?",
+        },
+        {
+          type: "image" as const,
+          src: "/back2play/images/4.png",
+          alt: "venga admitelo",
+          caption: "venga admitelo",
+        },
+        {
+          type: "image" as const,
+          src: "/back2play/images/5.png",
+          alt: "sí, eres un poquito gamer",
+          caption: "sí, eres un poquito gamer",
+        },
+        {
+          type: "image" as const,
+          src: "/back2play/images/6.png",
+          alt: "planta distribución",
+          caption: "Planta distribución",
+        },
+        {
+          type: "image" as const,
+          src: "/back2play/images/7.png",
+          alt: "Key Visual",
+          caption: "Moodboard",
+        },
+        {
+          type: "image" as const,
+          src: "/back2play/images/10.png",
+          alt: "Programa actividades",
+          caption: "Programa actividades",
+        },
+      ],
+      links: [
+        {
+          text: "Enlace a la presentación completa",
+          url: "https://www.canva.com/design/DAGpeGTCskc/zNa7k7noGv1JqyubvRNM7g/view?utm_content=DAGpeGTCskc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h606babc5fd",
+        },
+      ],
+      longDescription:
+        "Un evento que une esports y cultura de festival para abrir el gaming a más gente. BACK2PLAY es un evento de tres días que combina competiciones de videojuegos con una programación cultural pensada para ampliar el alcance de los esports. Nuestro objetivo es reunir en un mismo espacio a jugadores habituales, fans casuales y personas que nunca se han sentido representadas en este tipo de eventos, pero que crecieron jugando. Sí, hay torneos con nivel, reglas y premios. Pero también hay conciertos, talleres, zona retro, actividades interactivas y experiencias que invitan a participar desde otros lugares: el recuerdo, la música, la comunidad o simplemente la curiosidad. No se trata de restar importancia a la competición, sino de sumar capas de contenido que conecten con una generación que no vive el gaming solo como deporte, sino como cultura. Durante tres días, el Sant Jordi Club se transforma en un entorno híbrido: una LAN party con espíritu de festival, donde se puede competir, aprender, jugar, mirar o simplemente disfrutar. BACK2PLAY no es una feria ni un campeonato al uso. Es una propuesta nueva para una comunidad más amplia, más diversa y más conectada con el presente.",
+    },
+    "serenates": {
+      title: "Serenates 2024",
+      description: "Creación de visuales en directo inspirados en la obra pictórica de Joaquín Sorolla.",
+      technologies: ["TouchDesigner", "After Effects", "Resolume Arena"],
+      category: "interactivo",
+      media: [
+        {
+          type: "image" as const,
+          src: "/serenates/images/1.jpg",
+          alt: "Cuadro Los Nazarenos - Joaquín Sorolla",
+          caption: "Cuadro Los Nazarenos - Joaquín Sorolla",
+        },
+        {
+          type: "video" as const,
+          src: "/serenates/videos/1.mp4",
+          caption: "Prueba digital secuencia completa de luces sincronizada con poemas",
+        },
+        {
+          type: "video" as const,
+          src: "/serenates/videos/2.mp4",
+          caption: "Prueba digital secuencia completa de luces sincronizada con poemas",
+        },
+        {
+          type: "video" as const,
+          src: "/serenates/videos/3.mp4",
+          caption: "Prueba digital secuencia completa de luces sincronizada con poemas",
+        },
+        {
+          type: "video" as const,
+          src: "/serenates/videos/4.mp4",
+          caption: "Prueba digital secuencia completa de luces sincronizada con poemas",
+        },
+      ],
+      links: [
+        {
+          text: "Virginia Lorente <<Las Fallas son una oportunidad increíble para incorporar todos los ámbitos del diseño.>>",
+          url: "https://dissenycv.es/virginia-lorente-las-fallas-son-una-oportunidad-increible-para-incorporar-todos-los-ambitos-del-diseno/",
+        },
+        {
+          text: "A través de las luces y el sonido, las personas que visiten el monumento podrán escuchar los versos, <<y sentir el latido de ese abrazo.>>",
+          url: "https://flatmagazine.es/diseno/virginia-lorente-disena-el-abrazo-de-estelles-en-la-plaza-de-la-reina/",
+        },
+        {
+          text: "3º Premio Sección experimentales",
+          url: "https://www.valenciaextra.com/es/fallas/mejores-fallas-experimentales-valencia-2024_529918_102.html",
+        },
+      ],
+      longDescription:
+        'Diseñamos una secuencia de luces inspirada en los poemas del poeta valenciano Vicent Andrés Estellés, que se proyectaban sobre las figuras de la Falla, utilizando PAR LEDs conectados con DMX y protocolo Artnet, en sincronía con los poemas del poeta. Con la ayuda de TouchDesigner, logramos crear un sistema autosuficiente que encendía y apagaba automáticamente la instalación, garantizando su funcionamiento sin problemas durante todo el evento.\n\nY no nos detuvimos ahí. También llevamos la experiencia a la realidad aumentada, agregando imágenes que representaban la historia de la Falla, la Plaza de la Reina y Valencia en la época de Estellés.\n\nY para nuestra alegría, la Falla Tio Pep, diseñada por Virginia Lorente y creada por el artista Ricardo Alcaide, recibió el tercer premio de Fallas experimentales. Fue un verdadero honor haber sido parte de este proyecto y trabajar junto a verdaderos profesionales.\n\nVirginia Lorente: "Las Fallas son una oportunidad increíble para incorporar todos los ámbitos del diseño."\n\nA través de las luces y el sonido, las personas que visiten el monumento podrán escuchar los versos, "y sentir el latido de ese abrazo".',
+    },
     "deep-end-skatepark": {
       title: "Deep End Skatepark",
       description: "Este proyecto plantea un skatepark indoor que complemente la oferta existente al aire libre, satisfaciendo la creciente afición local.",
