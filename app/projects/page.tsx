@@ -115,7 +115,7 @@ export default function ProjectsPage() {
       technologies: ["VR", "Experiencia Inmersiva", "Arte Digital"],
       category: "ia-ra-vr",
     },
-    {
+/*{
       id: "the-next-serve",
       title: "The Next Serve",
       description:
@@ -123,7 +123,7 @@ export default function ProjectsPage() {
       image: "the-next-serve/1.jpg",
       technologies: ["IA", "Conceptualización"],
       category: "ia-ra-vr",
-    },
+    },*/
     {
       id: "dialogos",
       title: "Diálogos 2024",

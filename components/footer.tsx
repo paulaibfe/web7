@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Twitter, Linkedin, Mail } from "lucide-react"
+import { Linkedin, Mail } from "lucide-react"
 
 export function Footer() {
   return (
@@ -7,21 +7,15 @@ export function Footer() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <p className="text-sm text-muted-foreground">
-              &copy; {new Date().getFullYear()} CYBER_DEV. All rights reserved.
-            </p>
+            
           </div>
           <div className="flex space-x-4">
-            <Link href="https://twitter.com" className="text-muted-foreground hover:text-primary transition-colors">
-              <Twitter size={20} />
-              <span className="sr-only">Twitter</span>
-            </Link>
-            <Link href="https://linkedin.com" className="text-muted-foreground hover:text-primary transition-colors">
+            <Link href="http://linkedin.com/in/paula-ibor-4278761ba" className="text-muted-foreground hover:text-primary transition-colors">
               <Linkedin size={20} />
               <span className="sr-only">LinkedIn</span>
             </Link>
             <Link
-              href="mailto:hello@example.com"
+              href="mailto:neonoia.studio@gmail.com"
               className="text-muted-foreground hover:text-primary transition-colors"
             >
               <Mail size={20} />

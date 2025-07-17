@@ -99,7 +99,7 @@ export default function AboutPage() {
       items: [
         "Español | nativo",
         "Catalán | nativo",
-        "Inglés  | Cambridge C1"
+        "Inglés   | Cambridge C1"
       ],
     },
   ]
@@ -324,11 +324,11 @@ export default function AboutPage() {
                     <div>
                       <p className="mb-1 text-primary">mail0:</p>
                       <Link
-                        href="mailto:paulaibfe@gmail.com"
+                        href="mailto:neonoia.studio@gmail.com"
                         className="flex items-center gap-2 hover:text-primary transition-colors"
                       >
                         <Mail size={16} />
-                        paulaibfe@gmail.com
+                        neonoia.studio@gmail.com
                       </Link>
                     </div>
                     <div>
