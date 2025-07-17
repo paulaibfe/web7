@@ -75,29 +75,31 @@ export default function AboutPage() {
     {
       category: "Planimetria_Representación",
       items: [
-        "Dominio de AutoCAD para planos, secciones y detalles técnicos.",
         "Documentación gráfica completa de proyectos arquitectónicos e interiores.",
+        "Herramientas: AutoCad",
       ],
     },
     {
       category: "Diseño_Interactivo",
       items: [
-        "Experiencia en TouchDesigner, Arduino y Python básico.",
-        "Proyectos interactivos, visuales en tiempo real y prototipos tecnológicos conectados al espacio o estímulos sensoriales.",
-      ],
-    },
-    {
-      category: "Visuales_Live_Media",
-      items: [
-        "Resolume Arena para mezcla de contenido visual en tiempo real.",
-        "Aplicación en eventos, instalaciones y entornos escénicos.",
+       "Proyectos interactivos, visuales en tiempo real y prototipos tecnológicos conectados al espacio o estímulos sensoriales.",  
+        "Herramientas: TouchDesigner, Arduino, Python básico y Resolume Arena.",
       ],
     },
     {
       category: "Edición",
       items: [
-        "Manejo de Adobe Suite (Photoshop, Illustrator, InDesign, After Effects) y Canva.",
         "Desarrollo de identidad gráfica, presentaciones, contenido audiovisual y editorial.",
+        "Herramientas: Adobe Suite (Photoshop, Illustrator, InDesign, After Effects) y Canva.",
+        
+      ],
+    },
+    {
+      category: "Idiomas",
+      items: [
+        "Español | nativo",
+        "Catalán | nativo",
+        "Inglés  | Cambridge C1"
       ],
     },
   ]
@@ -343,12 +345,12 @@ export default function AboutPage() {
                     <div>
                       <p className="mb-1 text-primary">instagram0:</p>
                       <Link
-                        href="https://instagram.com/paulaibfe"
+                        href="https://instagram.com/neonoia.studio"
                         className="flex items-center gap-2 hover:text-primary transition-colors"
                         target="_blank"
                       >
                         <Instagram size={16} />
-                        @paulaibfe
+                        @neonoia.studio
                       </Link>
                     </div>
                   </div>

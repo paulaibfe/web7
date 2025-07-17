@@ -18,23 +18,23 @@ export default function Home() {
     {
       id: "fallen-equinox",
       title: "Fallen Equinox",
-      description: "Experiencia inmersiva que combina arte digital y sonido para crear un ambiente único.",
-      image: "/placeholder.svg?height=400&width=600",
-      technologies: ["Eventos", "Sonido", "Instalación"],
+      description: "Lanzamiento de colección de la marca Named Collective.",
+      image: "/fallen-equinox/images/1.png",
+      technologies: ["IA", "Dirección Arte", "Escenografia"],
     },
     {
       id: "ecos-de-la-tierra",
       title: "Ecos de la Tierra",
-      description: "Instalación interactiva que explora la conexión entre la naturaleza y la tecnología.",
-      image: "/placeholder.svg?height=400&width=600",
-      technologies: ["Interactivo", "Ecología", "Sensores"],
+      description: "Visuales interactivos que exploran la conexión entre la naturaleza y los humanos.",
+      image: "/ecos-de-la-tierra/images/1.png",
+      technologies: ["TouchDesigner", "After Effects", "Sonido"],
     },
     {
-      id: "deep-end-skatepark",
-      title: "Deep End Skatepark",
-      description: "Diseño de interiores para un skatepark urbano que fusiona funcionalidad y estética contemporánea.",
-      image: "/placeholder.svg?height=400&width=600",
-      technologies: ["Interiores", "Diseño", "Urbano"],
+      id: "formentera",
+      title: "Formentera",
+      description: "Rehabilitación de una vivienda de dos plantas entre medianeras.",
+      image: "/formentera/1.png",
+      technologies: ["Arquitectura", "Planimetria", "Visualización 3D"],
     },
   ]
 
@@ -50,14 +50,14 @@ export default function Home() {
   ]
 
   const skills = [
-    t("interiorDesign"),
-    t("interactiveInstallations"),
-    t("eventProduction"),
-    t("augmentedReality"),
-    t("virtualReality"),
-    t("artificialIntelligence"),
-    t("soundDesign"),
-    t("lighting"),
+    t("EstratégiaExperiencial"),
+    t("PrototipadoÁgil"),
+    t("SistemasModulares"),
+    t("SostenibilidadCircular"),
+    t("CoordinaciónInterdisciplinar"),
+    //t("artificialIntelligence"),
+    //t("soundDesign"),
+    //t("lighting"),
   ]
 
   const handleChatClick = () => {
