@@ -125,7 +125,7 @@ export default function AboutPage() {
               <div className="w-full lg:w-1/2 flex-shrink-0">
                 <div className="relative h-96">
                   <img
-                    src="/about-me/images/1.png"
+                    src="/about-me/images/2.png"
                     alt="Paula Ibor - Perfil"
                     className="w-full h-full object-contain rounded-md border border-primary/30 shadow-lg"
                   />
