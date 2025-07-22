@@ -334,7 +334,7 @@ export default function AboutPage() {
                     <div>
                       <p className="mb-1 text-primary">linkedin0:</p>
                       <Link
-                        href="http://linkedin.com/in/paula-ibor-4278761ba"
+                        href="http://linkedin.com/in/paula-ibor"
                         className="flex items-center gap-2 hover:text-primary transition-colors"
                         target="_blank"
                       >

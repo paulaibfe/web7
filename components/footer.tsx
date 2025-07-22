@@ -12,7 +12,7 @@ export function Footer() {
             </p>
           </div>
           <div className="flex space-x-4">
-            <Link href="http://linkedin.com/in/paula-ibor-4278761ba" className="text-muted-foreground hover:text-primary transition-colors">
+            <Link href="http://linkedin.com/in/paula-ibor" className="text-muted-foreground hover:text-primary transition-colors">
               <Linkedin size={20} />
               <span className="sr-only">LinkedIn</span>
             </Link>
